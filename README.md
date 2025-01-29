@@ -1,8 +1,10 @@
+```bash
 git add Figures/*
 
 git commit -m "Add missing images"
 
 git push
+```
 
 # DANS
 # Deep Attention Network for Single Image Super Resolution
