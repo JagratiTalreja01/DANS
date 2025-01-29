@@ -8,6 +8,7 @@ The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorc
 1. [Introduction](#introduction)
 2. [Train](#train)
 3. [Test](#test)
+4. [Results](#results)
 5. [Citation](#citation)
 6. [Acknowledgements](#acknowledgements)
 
@@ -56,6 +57,8 @@ Cd to 'src', run the following scripts.
     ```bash
     
     # Example X2 SR
-    python main.py --dir_data ../../ --model dans  --chunk_size 144 --data_test Set5+Set14+B100+Urban100 --n_hashes 4 --chop --save_results --rgb_range 1 --data_range 801-900 --scale 2 --n_feats 256 --n_resblocks 32 --res_scale 0.1  --pre_train model_x2.pt --test_only
+    python main.py --dir_data ../../ --model dans  --chunk_size 144 --data_test Set5+Set14+B100+Urban100+Manga109 --n_hashes 4 --chop --save_results --rgb_range 1 --data_range 801-900 --scale 2 --n_feats 256 --n_resblocks 32 --res_scale 0.1  --pre_train model_x2.pt --test_only 
     ```
 
+## Results
+![DANS](/_architecture.png)
