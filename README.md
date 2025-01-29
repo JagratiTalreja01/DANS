@@ -16,7 +16,7 @@ The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorc
 
 This repository contains the implementation of DANS, a novel Deep Attention Network for Single Image Super-Resolution (SISR). DANS leverages a U-Net-based encoder-decoder structure, non-local sparse attention mechanisms, and inception blocks to enhance the reconstruction of high-resolution images from low-resolution inputs. The model achieves state-of-the-art performance in terms of quantitative metrics (PSNR, SSIM) and computational efficiency across multiple benchmark datasets.
 
-![DANS](/Figures/DANS_architecture.png)
+![DANS](./Figures/DANS_architecture.png)
 
 Key features:
 
@@ -63,25 +63,25 @@ Cd to 'src', run the following scripts.
 ## Results
 ### Visual Patches
 
-![BSD100x4](/Figures/BSDx4.png)
+![BSD100x4](./Figures/BSDx4.png)
 
-![BSD100x8](/Figures/BSDx8.png)
+![BSD100x8](./Figures/BSDx8.png)
 
-![Urnan100x8](\Figures\Urbanx8.png)
+![Urnan100x8](./Figures/Urbanx8.png)
 
-![Manga109x8](/Figures/Mangax8.png)
+![Manga109x8](./Figures/Mangax8.png)
 
 ### Quantitative Results
 
-![Number of Parameters](/Figures/Parameters.png)
+![Number of Parameters](./Figures/Parameters.png)
 
-![Execution Time](/Figures/Execution_Time.png)
+![Execution Time](./Figures/Execution_Time.png)
 
-![Space Complexity](/Figures/space_complexity.png)
+![Space Complexity](./Figures/space_complexity.png)
 
-![Time Complexity](/Figures/Time_complexity.png)
+![Time Complexity](./Figures/Time_complexity.png)
 
-![Flops](/Figures/Flops.png)
+![Flops](./Figures/Flops.png)
 
 For more Quantitative Results please read the paper [[Link]](https://ieeexplore.ieee.org/document/10210219)
 
