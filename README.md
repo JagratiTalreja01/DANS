@@ -70,3 +70,23 @@ Cd to 'src', run the following scripts.
 ![Urnan100x8](\Figures\Urbanx8.png)
 
 ![Manga109x8](/Figures/Mangax8.png)
+
+
+## Citation
+If you find the code helpful in your research or work, please cite the following papers.
+```
+@ARTICLE{10210219,
+  author={Talreja, Jagrati and Aramvith, Supavadee and Onoye, Takao},
+  journal={IEEE Access}, 
+  title={DANS: Deep Attention Network for Single Image Super-Resolution}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={84379-84397},
+  keywords={Superresolution;Computational modeling;Image reconstruction;Network architecture;Image resolution;Neural networks;Representation learning;Image super-resolution;inception blocks;non-local sparse attention;U-Net},
+  doi={10.1109/ACCESS.2023.3302692}}
+
+```
+
+## Acknowledgements
+This code is built on [NLSN (PyTorch)](https://github.com/HarukiYqM/Non-Local-Sparse-Attention) and [edsr-pytorch](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
