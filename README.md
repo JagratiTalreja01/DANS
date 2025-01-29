@@ -61,8 +61,8 @@ Cd to 'src', run the following scripts.
     ```
 
 ## Results
-![Visual Patches]
-BSD100 Dataset Scale x4 (/Figures/BSDx4.png)
-BSD100 Dataset Scale x8 (/Figures/BSDx8.png)
-Urnan100 Dataset Scale x8 (/Figures/Urbanx8.png)
-Manga109 Dataset Scale x8 (/Figures/Mangax8.png)
+### [Visual Patches]
+![BSD100] Dataset Scale x4 (/Figures/BSDx4.png)
+![BSD100] Dataset Scale x8 (/Figures/BSDx8.png)
+![Urnan100] Dataset Scale x8 (/Figures/Urbanx8.png)
+![Manga109] Dataset Scale x8 (/Figures/Mangax8.png)
