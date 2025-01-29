@@ -1,11 +1,3 @@
-```bash
-git add Figures/*
-
-git commit -m "Add missing images"
-
-git push
-```
-
 # DANS
 # Deep Attention Network for Single Image Super Resolution
 This repository is for DANS introduced in the following paper "Deep Attention Network for Single Image Super Resolution", IEEE Access, [[Link]](https://ieeexplore.ieee.org/document/10210219) 
