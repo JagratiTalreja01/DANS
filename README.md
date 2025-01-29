@@ -61,4 +61,4 @@ Cd to 'src', run the following scripts.
     ```
 
 ## Results
-![DANS](/_architecture.png)
+![Visual Patches](/Figures/BSDx4.png)
