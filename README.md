@@ -22,4 +22,14 @@ Key features:
 Non-local Sparse Attention: Captures long-range dependencies to improve contextual learning.
 Inception Blocks: Enables multi-scale feature representation for enhanced detail reconstruction.
 Efficient Architecture: Reduces computational costs with depth-wise separable convolutions and skip connections.
-This work has applications in security, medical imaging, remote sensing, and more. 
+
+Deep Attention Network for Single Image Super Resolution.
+
+## Train
+### Prepare training data 
+
+1. Download DIV2K training data (800 training + 100 validtion images) from [DIV2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) or [SNU_CVLab](https://cv.snu.ac.kr/research/EDSR/DIV2K.tar).
+
+2. Specify '--dir_data' based on the HR and LR images path. 
+
+For more information, please refer to [EDSR(PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch).
