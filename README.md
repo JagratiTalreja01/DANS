@@ -71,6 +71,17 @@ Cd to 'src', run the following scripts.
 
 ![Manga109x8](/Figures/Mangax8.png)
 
+### Quantitative Results
+
+![Number of Parameters](/Figures/Parameters.png)
+
+![Execution Time](/Figures/Execution_Time.png)
+
+![Space Complexity](/Figures/space_complexity.png)
+
+![Time Complexity](/Figures/Time_complexity.png)
+
+![Flops](/Figures/Flops.png)
 
 ## Citation
 If you find the code helpful in your research or work, please cite the following papers.
