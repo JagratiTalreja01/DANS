@@ -54,7 +54,7 @@ Cd to 'src', run the following scripts.
  **Example command is in the file 'demo.sh'.**
 
     ```bash
-    # No self-ensemble: NLSN
+    
     # Example X2 SR
     python main.py --dir_data ../../ --model dans  --chunk_size 144 --data_test Set5+Set14+B100+Urban100 --n_hashes 4 --chop --save_results --rgb_range 1 --data_range 801-900 --scale 2 --n_feats 256 --n_resblocks 32 --res_scale 0.1  --pre_train model_x2.pt --test_only
     ```
