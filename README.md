@@ -38,11 +38,24 @@ For more information, please refer to [EDSR(PyTorch)](https://github.com/thstkdg
 
 Cd to 'src', run the following script to train models.
 
-    **Example command is in the file 'demo.sh'.**
+ **Example command is in the file 'demo.sh'.**
 
     ```bash
     # Example X2 SR
     python main.py --dir_data ../../Dataset/ --n_GPUs 1 --rgb_range 1 --chunk_size 144 --n_hashes 4 --save_models --lr 1e-4 --decay 200-400-600-800 --epochs 300 --chop --save_results --n_resblocks 32 --n_feats 256 --res_scale 0.1 --batch_size 16 --model dans --scale 2 --patch_size 96 --save Dans_x2 --data_train DIV2K
     ```
+## Test
+### Quick start
+1. Download benchmark datasets from [SNU_CVLab](https://cv.snu.ac.kr/research/EDSR/benchmark.tar)
 
+
+Cd to 'src', run the following scripts.
+
+ **Example command is in the file 'demo.sh'.**
+
+    ```bash
+    # No self-ensemble: NLSN
+    # Example X2 SR
+    python main.py --dir_data ../../ --model dans  --chunk_size 144 --data_test Set5+Set14+B100+Urban100 --n_hashes 4 --chop --save_results --rgb_range 1 --data_range 801-900 --scale 2 --n_feats 256 --n_resblocks 32 --res_scale 0.1  --pre_train model_x2.pt --test_only
+    ```
 
