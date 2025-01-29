@@ -63,25 +63,25 @@ Cd to 'src', run the following scripts.
 ## Results
 ### Visual Patches
 
-![BSD100x4](./Figures/BSDx4.png)
+![BSD100x4](./Figures/BSDx4.PNG)
 
-![BSD100x8](./Figures/BSDx8.png)
+![BSD100x8](./Figures/BSDx8.PNG)
 
-![Urnan100x8](./Figures/Urbanx8.png)
+![Urnan100x8](./Figures/Urbanx8.PNG)
 
-![Manga109x8](./Figures/Mangax8.png)
+![Manga109x8](./Figures/Mangax8.PNG)
 
 ### Quantitative Results
 
-![Number of Parameters](./Figures/Parameters.png)
+![Number of Parameters](./Figures/Parameters.PNG)
 
-![Execution Time](./Figures/Execution_Time.png)
+![Execution Time](./Figures/Execution_Time.PNG)
 
-![Space Complexity](./Figures/space_complexity.png)
+![Space Complexity](./Figures/space_complexity.PNG)
 
-![Time Complexity](./Figures/Time_complexity.png)
+![Time Complexity](./Figures/Time_complexity.PNG)
 
-![Flops](./Figures/Flops.png)
+![Flops](./Figures/Flops.PNG)
 
 For more Quantitative Results please read the paper [[Link]](https://ieeexplore.ieee.org/document/10210219)
 
