@@ -11,11 +11,11 @@ The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorc
 5. [Citation](#citation)
 6. [Acknowledgements](#acknowledgements)
 
-7. ## Introduction
+## Introduction
 
 This repository contains the implementation of DANS, a novel Deep Attention Network for Single Image Super-Resolution (SISR). DANS leverages a U-Net-based encoder-decoder structure, non-local sparse attention mechanisms, and inception blocks to enhance the reconstruction of high-resolution images from low-resolution inputs. The model achieves state-of-the-art performance in terms of quantitative metrics (PSNR, SSIM) and computational efficiency across multiple benchmark datasets.
 
-![DANS](/DANS architecture.png)
+![DANS](DANS architecture.png)
 
 Key features:
 
