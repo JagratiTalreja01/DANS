@@ -83,6 +83,8 @@ Cd to 'src', run the following scripts.
 
 ![Flops](/Figures/Flops.png)
 
+For more Quantitative Results please read the paper [[Link]](https://ieeexplore.ieee.org/document/10210219)
+
 ## Citation
 If you find the code helpful in your research or work, please cite the following papers.
 ```
