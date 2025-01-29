@@ -1,5 +1,7 @@
 git add Figures/*
+
 git commit -m "Add missing images"
+
 git push
 
 # DANS
